@@ -1,0 +1,46 @@
+# Unity generated
+Library/
+Temp/
+Obj/
+*.csproj
+*.sln
+*.meta
+*.userprefs
+
+# Visual Studio / MonoDevelop generated
+ExportedObj/
+*.booproj
+*.pidb
+*.suo
+*.sln.docstates
+*.user
+*.unityproj
+*.msvc
+*.pdb
+*.csproj.user
+*.txt
+
+# Build results
+Build/
+*[Bb]uild*/
+
+# Runtime data
+*.stackdump
+*.log
+
+# Unity3D generated #
+Assets/AssetStoreTools*
+
+# Custom # 
+node_modules/
+*.DS_Store
+*.idea/
+*.iml
+.DS_Store
+.DS_Store?
+.DS_Store???
+__MACOSX/
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.kate-swp
