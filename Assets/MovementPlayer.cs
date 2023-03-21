@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class MovementPlayer : MonoBehaviour
 {
@@ -36,7 +38,6 @@ public class MovementPlayer : MonoBehaviour
 
     }
 
-
     void Lompat()
     {
         if (Input.GetKeyDown(KeyCode.Space) || Input.GetButton("Jump"))
@@ -46,5 +47,12 @@ public class MovementPlayer : MonoBehaviour
     }
 
 
+    void Update()
+    {
+        if (transform.position.y < -15) // ganti nilai -10 dengan batas Y yang ingin digunakan
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
+    }
 
 }
