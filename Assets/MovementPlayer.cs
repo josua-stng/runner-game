@@ -23,7 +23,7 @@ public class MovementPlayer : MonoBehaviour
     {
         Bergerak();
         Lompat();
-   
+
     }
 
     void Bergerak()
