@@ -47,12 +47,6 @@ public class MovementPlayer : MonoBehaviour
     }
 
 
-    void Update()
-    {
-        if (transform.position.y < -15) // ganti nilai -10 dengan batas Y yang ingin digunakan
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        }
-    }
+  
 
 }

@@ -7,6 +7,7 @@ public class EndMenu : MonoBehaviour
     // Start is called before the first frame update
    public void QuitGame()
     {
-        Application.Quit();
+        UnityEditor.EditorApplication.isPlaying = false;
+      //  Application.Quit();
     }
 }
